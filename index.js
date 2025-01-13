@@ -14,31 +14,31 @@ document.addEventListener("keypress",pressed1);
 function clicked(ch){
   switch(ch){
     case "w":
-      var j=new Audio('/sounds/tom-1.mp3');
+      var j=new Audio('./sounds/tom-1.mp3');
       j.play();
       break;
     case "a":
-        var j=new Audio('/sounds/tom-2.mp3');
+        var j=new Audio('./sounds/tom-2.mp3');
         j.play();
         break;
     case "s":
-        var j=new Audio('/sounds/tom-3.mp3');
+        var j=new Audio('./sounds/tom-3.mp3');
         j.play();
         break;
     case "d":
-        var j=new Audio('/sounds/tom-4.mp3');
+        var j=new Audio('./sounds/tom-4.mp3');
         j.play();
         break;
     case "j":
-        var j=new Audio('/sounds/snare.mp3');
+        var j=new Audio('./sounds/snare.mp3');
         j.play();
         break;
     case "k":
-        var j=new Audio('/sounds/crash.mp3');
+        var j=new Audio('./sounds/crash.mp3');
         j.play();
         break;
     case "l":
-        var j=new Audio('/sounds/kick-bass.mp3');
+        var j=new Audio('./sounds/kick-bass.mp3');
         j.play();
         break;
     default:
